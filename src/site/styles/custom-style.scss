@@ -1,4 +1,9 @@
-
+body {
+	--accent-h: 172;
+    --accent-s: 1%;
+    --accent-l: 14%;
+}
+	
 @media (min-width: 992px) {
   .content {
     font-size: 14px !important;
