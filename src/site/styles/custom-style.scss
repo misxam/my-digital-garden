@@ -1,6 +1,6 @@
 
   h1 {
-    font-size: 0.8em !important;
+    font-size: 1.5em !important;
 
     /* 40px/16=2.5em */
     img {
@@ -10,16 +10,16 @@
   }
 
   h2 {
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
     /* 30px/16=1.875em */
   }
 
   h3 {
-    font-size: 1.17em !important;
+    font-size: 1em !important;
   }
 
   h4 {
-    font-size: 1em !important;
+    font-size: 0.9em !important;
     font-weight: bolder !important;
   }
 
@@ -46,7 +46,9 @@
           }
       }
    }
-
+    p {
+      font-size: 0.4em !important;
+    }
     h1::before {
       content: " ";
       display: block;
@@ -57,13 +59,11 @@
       background-image: url(/img/logo.svg);
       background-position: center;
     }
-  }
 
     &>ol {
       padding-left: 0;
       border-left: none;
     }
-  }
 
   header {
     margin-bottom: 1.8em;
