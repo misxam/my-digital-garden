@@ -27,8 +27,12 @@ body {
  font-size: 12px !important;
 }
 
-.markdown-rendered h1 {
- font-size: 25px !important;
+h1 {
+ font-size: 30px !important;
+}
+
+body > div:nth-child(1) > div:nth-child(1) > nav > div.navbar-inner > a > h1 {
+	font-size: 25px !important;
 }
 
 .backlinks .backlink-title {
