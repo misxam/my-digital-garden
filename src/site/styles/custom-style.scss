@@ -11,10 +11,8 @@ body {
 	h1 {
  font-size: 35px !important;
 }
-	.markdown-preview-view img:hover + ::backdrop {
+	.markdown-preview-view img:hover {
 		transform: scale(1.7);
-	backdrop-filter: blur(100px);
-	background-color: rgba(255, 255, 255, 0.4);
 }
 } 
 
