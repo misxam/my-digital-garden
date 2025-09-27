@@ -8,12 +8,18 @@ body {
   .content {
     font-size: 14px !important;
   }
+	h1 {
+ font-size: 35px !important;
+}
 } 
 
 @media (max-width: 768px) {
   .content {
     font-size: 12px !important;
   }
+h1 {
+ font-size: 21px !important;
+}
 }
 
 .filetree-sidebar {
@@ -27,9 +33,7 @@ body {
  font-size: 12px !important;
 }
 
-h1 {
- font-size: 30px !important;
-}
+
 
 body > div:nth-child(1) > div:nth-child(1) > nav > div.navbar-inner > a > h1 {
 	font-size: 25px !important;
