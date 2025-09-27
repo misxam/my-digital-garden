@@ -12,8 +12,8 @@ body {
  font-size: 35px !important;
 }
 	.markdown-preview-view img:hover {
-	transform: scale(2),
-	backdrop-filter: blur(35px);
+	transform: scale(2);
+	backdrop-filter: blur(5px);
 }
 } 
 
