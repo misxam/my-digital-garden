@@ -22,3 +22,21 @@
 .markdown-rendered h1 {
  font-size: 18px !important;
 }
+
+.backlinks .backlink-title {
+	 font-size: 12px !important;
+}
+//
+.no-backlinks-message {
+	 font-size: .6rem !important;
+}
+
+.backlink-card {
+	 font-size: .8rem;
+}
+
+.backlink-list > div > svg
+{
+	width: 15,
+	height: 15,
+}
