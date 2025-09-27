@@ -11,6 +11,9 @@ body {
 	h1 {
  font-size: 35px !important;
 }
+	.markdown-preview-view img:hover {
+transform: scale(2)
+}
 } 
 
 @media (max-width: 768px) {
@@ -19,6 +22,9 @@ body {
   }
 h1 {
  font-size: 25px !important;
+}
+		.markdown-preview-view img:hover {
+transform: scale(1.5)
 }
 }
 h3, h4, h5, h6 {
@@ -84,6 +90,4 @@ body > div:nth-child(1) > div:nth-child(1) > nav > div.navbar-inner > a > h1 {
 	    width: 100%;
 	    border-radius: 0px;
 }
-.markdown-preview-view img:hover {
-transform: scale(2)
-}
+
