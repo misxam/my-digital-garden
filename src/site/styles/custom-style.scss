@@ -84,4 +84,6 @@ body > div:nth-child(1) > div:nth-child(1) > nav > div.navbar-inner > a > h1 {
 	    width: 100%;
 	    border-radius: 0px;
 }
-
+.markdown-preview-view img:hover {
+transform: scale(2)
+}
