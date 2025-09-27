@@ -1,69 +1,12 @@
 
-.content {
-  font-size: 12px;
+@media (min-width: 992px) {
+  .content {
+    font-size: 14px;
+  }
+} 
+
+@media (max-width: 768px) {
+  .content {
+    font-size: 12px;
+  }
 }
-  h1 {
-    //font-size: 1.5em !important;
-
-    /* 40px/16=2.5em */
-    img {
-      height: 32px;
-      width: auto;
-    }
-  }
-
-  h2 {
-    //font-size: 1.2em !important;
-    /* 30px/16=1.875em */
-  }
-
-  h3 {
-    //font-size: 1em !important;
-  }
-
-  h4 {
-    //font-size: 0.9em !important;
-    font-weight: bolder !important;
-  }
-
-  h5 {
-    //font-size: 0.83em !important;
-    font-weight: bolder !important;
-  }
-
-  h6 {
-   // font-size: 0.67em !important;
-    font-weight: bolder !important;
-  }
-
-  table {
-      width: 100% !important;
-       border: 1px solid lightgray !important;
-
-      td,
-      th {
-          padding: 5px 10px !important;
-
-          hr {
-              margin: 5px !important;
-          }
-      }
-   }
-    p {
-      //font-size: 0.4em !important;
-    }
-    h1::before {
-      content: " ";
-      display: block;
-      width: 100%;
-      height: 3em;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-image: url(/img/logo.svg);
-      background-position: center;
-    }
-
-  header {
-    //margin-bottom: 1.8em;
-  }
-
